@@ -1,0 +1,11 @@
+{
+  "services": {
+    "TEMPLATE_NAME": {
+      "name": "TEMPLATE_NAME",
+      "type": "app",
+      "exec_cmd": "/mnt/managed_home/farm-ng-user-YOUR_USER_HERE/YOUR-REPOSITORY-NAME/entry.sh",
+      "display_name": "APP NAME",
+      "autostart": false
+    }
+  }
+}
