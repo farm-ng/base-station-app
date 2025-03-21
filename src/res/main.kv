@@ -13,7 +13,7 @@ BoxLayout:
             orientation: 'vertical'
             size_hint_x: 0.5
             spacing: 10
-            
+
             Label:
                 text: 'Base Station Application'
                 size_hint_y: 0.5
@@ -24,17 +24,17 @@ BoxLayout:
                 size_hint_y: 0.5
                 text: 'Switch to Survey Mode'
                 on_release: app.switch_to_survey_mode()
-                
-            
+
+
         BoxLayout:
             orientation: 'vertical'
             size_hint_x: 0.5
             spacing: 10
-          
+
             Button:
                 id: select_location_button
                 size_hint_y: 0.5
-                text: 'Select Known Locations'                
+                text: 'Select Known Locations'
                 on_release: app.show_location_selection()
 
             Button:
@@ -55,25 +55,25 @@ BoxLayout:
             id: current_coordinates_column
             orientation: 'vertical'
             size_hint_x: 0.5
-            
+
             Label:
                 text: 'Current Position'
                 font_size: '20sp'
                 bold: True
                 size_hint_y: 0.2
-            
+
             Label:
                 id: latitude_label
                 text: "Latitude: N/A"
                 font_size: '18sp'
                 size_hint_y: 0.2
-            
+
             Label:
                 id: longitude_label
                 text: "Longitude: N/A"
                 font_size: '18sp'
                 size_hint_y: 0.2
-            
+
             Label:
                 id: altitude_label
                 text: "Altitude: N/A"
@@ -85,26 +85,26 @@ BoxLayout:
             id: fixed_coordinates_column
             orientation: 'vertical'
             size_hint_x: 0.5
-            
+
             Label:
                 id: selected_name_label
                 text: 'Selected Location: N/A'
                 font_size: '20sp'
                 bold: True
                 size_hint_y: 0.2
-            
+
             Label:
                 id: selected_latitude_label
                 text: "Latitude: N/A"
                 font_size: '18sp'
                 size_hint_y: 0.2
-            
+
             Label:
                 id: selected_longitude_label
                 text: "Longitude: N/A"
                 font_size: '18sp'
                 size_hint_y: 0.2
-            
+
             Label:
                 id: selected_altitude_label
                 text: "Altitude: N/A"
@@ -116,13 +116,13 @@ BoxLayout:
         orientation: 'horizontal'
         size_hint_y: 0.2
         spacing: 10
-        
+
         Button:
             id: save_new_button
             text: 'Save current location as new known location'
-            disabled: 
+            disabled:
             on_press: app.on_save_new_location()
-        
+
         Button:
             id: apply_button
             text: 'Apply'

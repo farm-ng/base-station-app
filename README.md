@@ -83,7 +83,7 @@ The app is a grpahical interface for two main configuration files:
 }
 ```
 
-You can change both files manually using t he CLI as well. Use the services tab to re-start 
+You can change both files manually using t he CLI as well. Use the services tab to re-start
 `farmng-gnss-ntrip.service` to apply the changes.
 
 ## Usage
