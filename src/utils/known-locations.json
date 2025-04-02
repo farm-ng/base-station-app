@@ -1,40 +1,10 @@
 {
     "locations": [
         {
-            "name": "Base Station 1",
-            "latitude": 37.123456,
-            "longitude": -121.987654,
-            "altitude": 123.45
-        },
-        {
-            "name": "Base Station 2",
-            "latitude": 37.234567,
-            "longitude": -121.876543,
-            "altitude": 234.56
-        },
-        {
-            "name": "Zero location",
-            "latitude": 0.0,
-            "longitude": 0.0,
-            "altitude": 0
-        },
-        {
-            "name": "ontem",
+            "name": "Farm-ng Example",
             "latitude": 37.123456,
             "longitude": -121.9876540002,
             "altitude": 1.23
-        },
-        {
-            "name": "hoje",
-            "latitude": 37.2345670002,
-            "longitude": -121.8765429999,
-            "altitude": 2.34
-        },
-        {
-            "name": "nathan",
-            "latitude": 36.92926801,
-            "longitude": -121.79063791,
-            "altitude": 10.03
         }
     ]
 }
